@@ -29,4 +29,10 @@
                                  displayName="Better Alt+Ins Menu Settings"/>
         <applicationService serviceImplementation="dev.cerus.betteraltinsmenu.settings.BAIMSettingsState"/>
     </extensions>
+
+    <applicationListeners>
+        <listener
+                class="dev.cerus.betteraltinsmenu.listener.BAIMProjectOpenListener"
+                topic="com.intellij.openapi.project.ProjectManagerListener"/>
+    </applicationListeners>
 </idea-plugin>

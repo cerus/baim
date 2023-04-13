@@ -5,6 +5,7 @@ import com.intellij.openapi.components.PersistentStateComponent;
 import com.intellij.openapi.components.State;
 import com.intellij.openapi.components.Storage;
 import com.intellij.util.xmlb.XmlSerializerUtil;
+import dev.cerus.betteraltinsmenu.service.BAIMService;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -28,6 +29,7 @@ public class BAIMSettingsState implements PersistentStateComponent<BAIMSettingsS
     @Override
     public void loadState(@NotNull final BAIMSettingsState state) {
         XmlSerializerUtil.copyBean(state, this);
+        BAIMService.getInstance().applySettings();
     }
 
     public enum Mode {
