@@ -1,0 +1,1 @@
+rootProject.name = "better-alt-ins-menu"
