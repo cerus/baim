@@ -18,9 +18,9 @@ Tested with IntelliJ IDEA Ultimate 2023.1. No idea about other JetBrains IDEs, b
 
 ## Installation
 
-BAIM is not available from the official JetBrains plugin repository because I'm too lazy to upload it. If this plugin ever gets some attention I'll
-probably change that.
+BAIM is not yet available from the JetBrains Marketplace.
 
+**Manual installation instructions**\
 You can install the plugin by downloading the `baim-VERSION.zip` file from the [latest release](https://github.com/cerus/baim/releases/latest) and
 clicking
 the "Install plugin from disk"-button in the
