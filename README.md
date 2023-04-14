@@ -18,7 +18,8 @@ Tested with IntelliJ IDEA Ultimate 2023.1. No idea about other JetBrains IDEs, b
 
 ## Installation
 
-BAIM is not yet available from the JetBrains Marketplace.
+**Installation from Marketplace**\
+[Click here](https://plugins.jetbrains.com/plugin/21488-better-alt-ins-menu) or search for "Better Alt+Ins Menu" on the Marketplace.
 
 **Manual installation instructions**\
 You can install the plugin by downloading the `baim-VERSION.zip` file from the [latest release](https://github.com/cerus/baim/releases/latest) and
